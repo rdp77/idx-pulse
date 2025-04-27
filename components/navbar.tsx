@@ -14,10 +14,6 @@ export const NAVLINKS = [
         href: `/docs${page_routes[0].href}`,
     },
     {
-        title: "Blog",
-        href: "/blog",
-    },
-    {
         title: "Github Issues",
         href: "https://github.com/rdp77/idx-pulse/issues",
     },
