@@ -52,4 +52,4 @@ npx ariadocs-cli <template> <project-directory>
 ### Support
 
 Please consider sponsoring to keep this project alive.  
-[Sponsor Me](https://github.com/sponsors/nisabmohd)
+[Sponsor Me](https://github.com/sponsors/rdp77)
