@@ -18,16 +18,8 @@ export const NAVLINKS = [
     href: "/blog",
   },
   {
-    title: "Examples",
-    href: "#",
-  },
-  {
-    title: "Guides",
-    href: "#",
-  },
-  {
-    title: "Community",
-    href: "https://github.com/nisabmohd/Aria-Docs/discussions",
+    title: "Github Issues",
+    href: "https://github.com/rdp77/idx-pulse/issues",
   },
 ];
 
@@ -54,26 +46,17 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center sm:justify-normal justify-between sm:gap-3 ml-1 sm:w-fit w-[90%]">
-          <AlgoliaSearch {...algolia_props} />
+          {/*<AlgoliaSearch {...algolia_props} />*/}
           <div className="flex items-center justify-between sm:gap-2">
             <div className="flex ml-4 sm:ml-0">
               <Link
-                href="https://github.com/nisabmohd/NexDocs"
+                href="https://github.com/rdp77/idx-pulse"
                 className={buttonVariants({
                   variant: "ghost",
                   size: "icon",
                 })}
               >
                 <GithubIcon className="h-[1.1rem] w-[1.1rem]" />
-              </Link>
-              <Link
-                href="#"
-                className={buttonVariants({
-                  variant: "ghost",
-                  size: "icon",
-                })}
-              >
-                <TwitterIcon className="h-[1.1rem] w-[1.1rem]" />
               </Link>
               <ModeToggle />
             </div>
@@ -88,7 +71,7 @@ export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2.5">
       <CommandIcon className="w-6 h-6 text-muted-foreground" strokeWidth={2} />
-      <h2 className="text-md font-bold font-code">AriaDocs</h2>
+      <h2 className="text-md font-bold font-code">IDX Pulse</h2>
     </Link>
   );
 }
