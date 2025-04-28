@@ -11,7 +11,7 @@ Seamlessly Access Real-Time Indonesia Stock Exchange Data via API
   [View Source](https://github.com/ichsanulamal/idx-bei)
 
 - **API to get Indonesia stock exchange daily data from Pasardana website.**  
-  [View Template](https://github.com/risan/indonesia-stock-exchange)
+  [View Source](https://github.com/risan/indonesia-stock-exchange)
 
 ### Quick Start
 
